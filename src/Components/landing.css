@@ -1,0 +1,52 @@
+/* Home.css */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.dashboard-container {
+  display: flex;
+  position: relative;
+  padding-top: 80px;
+  padding-left: 80px;
+  width: 218vh;
+  height: 735px;
+  background-image: url('home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+  overflow: hidden; /* Ensure the overlay doesn't overflow the container */
+}
+
+/* Add the overlay using a pseudo-element */
+.dashboard-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) for opacity */
+  z-index: 2;
+}
+
+.center1 {
+  position: relative;
+  z-index: 3; /* Ensure the text container is above the overlay */
+  padding-top: 30px;
+}
+
+.center1 h2 {
+  color: white;
+  padding-top: 200px;
+  font-size: 80px;
+  padding-left: 100px;
+}
+
+.center1 h3 {
+  color: white;
+  padding-top: 40px;
+  font-size: 120px;
+  padding-left: 390px;
+}

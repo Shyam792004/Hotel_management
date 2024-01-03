@@ -1,0 +1,54 @@
+/* Sidebar.css */
+
+.sidebar {
+    height: 105%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 120px;
+  }
+  
+  .sidebar.open {
+    width: 150px;
+  }
+  
+  .sidebar .vertical ul{
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+  }
+  
+  
+  
+  
+  
+  a {
+    text-decoration: none;
+    color: white;
+    margin-left: 0px;
+    display: block;
+    padding: 15px;
+  }
+  
+  .sidebar-link {
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar-link:hover {
+    color: #ffcc00;
+  }
+  
+  .sidebar .close-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  

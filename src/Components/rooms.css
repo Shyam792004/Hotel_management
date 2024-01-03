@@ -1,0 +1,148 @@
+*{
+  padding:0;
+  margin-top:-12px;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-right: 10px;
+  z-index: -1; /* Place the video behind other content */
+}
+
+/* .main{
+  background-color: rgb(0, 0, 0);
+  background-image:url(https://images.unsplash.com/photo-1583121358977-98c0a70698b7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+  background-attachment:fixed;
+  background-size:cover;
+  background-position:center center;
+  box-sizing:border-box;
+  font-family: 'Andika', sans-serif;
+  position: relative;
+  width: 1535px;
+  /* margin-top: 30px; */
+/*} */
+.main {
+  background-color: rgb(0, 0, 0);
+  background-image: url(C:\Users\Suganya\OneDrive\Documents\GitHub\React_IRC\cc2\cc2app\src\Components\home.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  box-sizing: border-box;
+  font-family: 'Andika', sans-serif;
+  position: relative;
+  width: 1536px;
+  /* margin-top: 30px; */
+}
+.main::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+  z-index: 1; /* Place the overlay behind other content */
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Julius Sans One', sans-serif;
+  margin-bottom:20px;
+  color: rgb(255, 255, 255);
+  align-items: center;
+}
+.container{
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  z-index:2;
+  height:701px;
+}
+.container .card{
+  vertical-align:top;
+  width:300px;
+  height:400px;
+  position:relative;
+  margin:30px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.8);
+  border-radius:25px;
+  background-color:rgba(255, 255, 255, 0.1);
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.content{
+  
+  align-items: center;
+}
+.card .content{
+  padding:0px;
+  transition:0.8s all ease;
+  color:#ccc;
+  transform:translateY(200px);
+  opacity:1;
+  
+}
+.card:hover .content{
+  transform:translateY(1px);
+  opacity:1;
+
+}
+.card img{
+  position:absolute;
+  width:960px;
+  top:0px;
+  opacity: 1.2;
+
+}
+h1{
+  color:rgb(255, 255, 255);
+  text-align:center;
+  z-index:9;
+  position:relative;
+  margin-bottom:30px;
+  padding-top:0px;
+  padding-bottom:-20px;
+  font-weight:400;
+}
+.card .content h2{
+  color:#fff;
+  font-weight:400;
+}
+.card .content a{
+  display:inline-block;
+  margin-top:20px;
+  text-decoration:none;
+  padding:8px 30px 11px;
+  border:2px solid #fff;
+  text-transform:uppercase;
+  color:rgb(251, 251, 251);
+  border-radius:50px;
+  box-shadow: 0px 5px 50px rgba(0,0,0,0.8);
+  transition:0.8s all ease;
+}
+.card .content a:hover{
+  background: black;
+}
+
+.cap
+{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-weight: 400;
+  color: white;
+}
+
+
+
+@media only screen and (max-width:900px) {
+  .container{
+    display:block;
+  }
+}

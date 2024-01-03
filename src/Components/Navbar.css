@@ -1,0 +1,66 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1); /* Set the alpha value to 1 for no transparency */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 2px;
+  margin-right:350px ;
+  margin-left: 130px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+/* .other-link a,
+.login-register-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.other-link a:hover,
+.login-register-link:hover {
+  color: #ffcc00;
+} */
+/* Your existing styles */
+.other-link a,
+.login-register-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.other-link a:hover,
+.login-register-link:hover,
+.login-register-link:hover {
+  color: #1725a4;
+}

@@ -1,0 +1,49 @@
+#photo-gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.responsive-photo-gallery-figure {
+  margin: 0;
+  overflow: hidden;
+}
+
+figcaption {
+  margin-top: 15px;
+}
+
+.responsive-galllery-photo {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallerycontainer {
+  padding-top: 50px;
+  margin-top: 130px;
+  background-color: black;
+  color: black;
+}
+
+.gallerycontainer h1 {
+  color: white;
+  padding-left: 10px;
+}
+#photo-gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust the alignment as needed */
+}
+
+.photo-gallery-image-link {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(25% - 6px); /* Adjust width to fit four images in a row with margins */
+  text-decoration: none;
+  color: white;
+}
+
+/* Rest of your existing CSS styles */

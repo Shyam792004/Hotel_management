@@ -1,0 +1,85 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the last parameter for transparency */
+    width: 1519px;
+    margin-top: 500px;
+}
+
+.footerContainer {
+    width: 95%;
+    padding: 40px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 1rem;
+}
+
+.socialIcons div {
+    text-decoration: none;
+    padding: 1px;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the last parameter for transparency */
+    margin: 30px;
+    border-radius: 50%;
+    max-width: 30px;
+    overflow: hidden;
+    transition: background-color 0.5s;
+}
+
+.socialIcons i {
+    font-size: 20px;
+    color: white;
+    opacity: 0.9;
+    transition: color 0.5s;
+}
+
+.socialIcons div:hover i {
+    color: blue;
+}
+
+.footerNav ul {
+    padding: auto;
+    margin-bottom: 20px; /* Adjust the margin-bottom to reduce space */
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap:5rem;
+}
+
+.footerNav ul li  {
+    margin: 20px;
+    /* text-decoration: line; */
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+
+.footerNav ul li:hover {
+    opacity: 1;
+    color:rgb(175, 175, 211);
+}
+
+.footerBottom {
+    background-color: rgba(0, 0, 0, 0.9); /* Adjust the last parameter for transparency */
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}

@@ -1,0 +1,132 @@
+/* contactus.css */
+
+.contactus-container {
+    background-color: black;
+    height: auto;
+    width: 1519px;
+    padding: 160px 60px 50px 40px;
+    position: relative;
+}
+
+.bottom-elements
+{
+margin-top: 350px;
+}
+.brands {
+    color: white;
+    position: absolute;
+    padding-top: 150px;
+    bottom: 135px;
+    left: 50%
+    /* margin-top: 20px; Adjust the margin as needed */
+}
+
+.contact-form {
+    position: absolute;
+    bottom: 280px;
+    margin-left: 1100px;
+    
+}
+
+.contact-info {
+    position: absolute;
+    bottom: 70px;
+    left: 20%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+}
+.item123{
+    margin-top: -25px;
+}
+.info-item1,
+.info-item2,
+.info-item3 {
+    margin-bottom: -35px;
+    padding-top: 15px;
+    padding: 20px;
+    margin-left: 40px;
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+
+.info h1{
+    margin-top: 30px;
+}
+.info p {
+    padding-left: 130px;
+}
+
+
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    color: #ffffff68;
+}
+
+.social-icons i {
+    opacity: 0.9;
+    transition: color 0.1s;
+    font-size: 24px; /* Adjust the size as needed */
+}
+.social-icons i:hover {
+    color: #ffffff; /* Change the color to pure white on hover */
+}
+
+.info-image {
+    margin-top: 30px; /* Adjust the margin as needed */
+}
+
+.info-image img {
+    width:1300px;
+    height:550px;
+    display: relative;
+    margin-top: 15px;
+    margin-left: 130px;
+}
+/* Add this to your contact.css file */
+.brands {
+    h1 {
+        color: White; /* Change the color to your preferred default color */
+    }
+
+    p {
+        margin: 5px 0;
+        transition: color 0.5s; /* Add a smooth transition effect on color change */
+    }
+
+    p:hover {
+        color: whitesmoke; /* Change the color to your preferred hover color */
+    }
+}
+
